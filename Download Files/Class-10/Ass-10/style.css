@@ -1,0 +1,81 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Bebas+Neue&display=swap');
+
+/*My Fonts*/
+@font-face{
+	src: url('fonts/Lato-Regular.ttf');
+	font-family: lato;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	font-family: lato;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.banner{
+	background: url('images/5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.banner-overlay{
+	background: rgba(0, 0, 0, .5);
+	padding: 260px 0px;
+}
+
+.banner h1{
+	color: #fff;
+	margin-bottom: 15px;
+	font-family: lato;
+}
+.banner p{
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 35px;
+	font-family: 'Akaya Kanadaka', cursive;
+}
+.banner > .banner-overlay > a{
+	color: #fff;
+	background: #e74c3c;
+	padding: 10px 30px;
+	border-radius: 5px;
+	transition: .5s;
+}
+.banner > .banner-overlay > a:hover{
+	border-radius: 30px;
+
+}
+
+.banner i{
+	color: #fff;
+}
+
+.banner ul{
+	padding: 25px 0;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+.banner ul li{
+	padding: 0 10px;
+}
+.banner ul li a i{
+	color: #fff;
+	font-size: 20px;
+	
+}
